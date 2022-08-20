@@ -20,12 +20,32 @@ console.log(parseFloat(result).toFixed(2))
 95 - 100 = Golden A+ Grade ;
 */ 
 
-var result = 35 ;
+// var result = 35 ;
 
-if ( result > 0 && result < 32 ) {
-    console.log("Sorry, You just failed in the exam");
-}
+// if ( result > 0 && result < 32 ) {
+//     console.log("Sorry, You just failed in the exam");
+// }
 
-else if( result >= 33 && result <40){
-    console.log('You score "D" Grade in this exam');
+// else if( result >= 33 && result <40){
+//     console.log('You score "D" Grade in this exam');
+// }
+
+// switch
+// Switch, Case, Break, Default
+
+var name = 'Hero'
+
+switch( name ){
+    case 'Rahim':
+        console.log("'Wow! It's Rahim");
+    break;
+    case 'Abdul':
+        console.log("Wow! It's Abdul Rahim Vai.");
+    break;
+    case 'Hero' :
+        console.log("Wow! Tumie amr sei 'Hero'");
+    break;
+    default :
+        console.log("Don't Know")
+    
 }
